@@ -1,0 +1,53 @@
+/** To show similar looking components
+ * 1. Create a compoents 
+ * and pass in props to *CUSTOMISE* how that component gets displayed!!!
+ * 
+ */
+
+
+
+/** 
+ * we will store reusuable componets under "components" file
+ * resuable components display only small portion of screen
+ * 
+ * we will store full components under "screen" file
+ * full components show the entire screen
+ */
+
+
+/** Props is a system to pass data from a parent to a child
+ * props system to configure a child component
+ * to configure a child component, props is passed down from the parents compoent
+ * console.log(props) in the child component to look at the properties associated with the passed down prop!
+ * e.g 
+ * props => {
+ * return (
+ * <View>
+ * <Text> This is a {props.something123} </Text>
+ * </View>
+ * );
+ * };
+ * 
+ * you can create ANY property u want!!!
+ * in the parent, when u pass in the prop to child,
+ * <ImageDetail something123 = "fire"/>
+ * 
+ */
+
+
+ Props: 
+ system to pass data from parent to child!
+
+ State: 
+ system to track a pirce of data that will change over time. if that data changes, our app will renrender
+
+
+ Counter app!
+ What piece of data changing? counter variable
+ What type of data is it? number
+ What is data's default data? 0
+
+ Blog posts!
+ What piece of data changing? blogPosts variable
+ What type of data is it? array of objects
+ What is data's default data? []
