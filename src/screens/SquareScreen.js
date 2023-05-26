@@ -7,7 +7,8 @@ const SquareScreen = function() {
 //child compoennts need to change the state variables!
 //GENERALLY, we create state varaibles in the most parent components that need sto read or change a state value!
 //if a child needs to read the state valye, the parent can pass it down as a prop
-//
+//if child needs to change the state value, parent can pass down a callback fucntion(as a prop) to change the state vlaue 
+// >>>> 
     return (
         <View>
             <ColorCounter color = "Red"/>
