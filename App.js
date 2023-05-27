@@ -8,6 +8,7 @@ import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
 import SquareScreen from "./src/screens/SquareScreen";
 /**
+ * my name is elizabeth
  * stack navigator allows us to change/naviagte the content of screen
  * Props are not limited to primitive elements(pass props e.g <Text style ={styles.textStyle}> created by RN
  * Components, that we create, can also receive props!
