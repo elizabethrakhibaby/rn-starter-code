@@ -1,0 +1,35 @@
+Layout systems
+
+1. Box Object Model
+margin,border,padding,height,width: affect positioning of single element
+content>padding>border>margin
+
+2. Flex box
+how some number of sibling elemnts get laid out isnide a parent
+Position multiple elemnts with a common parent
+
+APPLIED TO PARENT
+- alignItems: 'stretch' (default) / 'flex-start' / 'center' / 'flex-end'
+- flexDirection: 'coloun' (default) / 'row' : laid out in what direction
+- justifyContent: 'flex-start' / 'center' / 'flex-end' / 'space-between' / 'space-around'
+ >> Justify Content lays out children along the primary axis, which is whatever flexDirection is set to
+
+
+APPLIED TO CHILD
+- flex: 1 (this child will take up as much possible as possible)
+- alignSelf: 'stretch' (default) / 'flex-start' / 'center' / 'flex-end' (OVERRIDES alignItems)
+
+
+3. Position
+How a single element gets laid out inside a parent
+Used to override Box Object model + Flex Box
+
+APPLIED TO CHILD
+position: 'relative' / 'absolute'
+ignored by siblings. Still obeys some flex box rules set by the parent.
+
+APPLIED TO CHILD
+- top/bottom/left/right adds extra space btw one elemnt and its sibling, so extra spacing is added AFTER eveerything is alr laid out on the screen. so if there child 1,2,3. top:10 on child 2, will cause child 2 to shift 10 units down and cover some top portion of child 3.
+e.g top:10
+- to make child fill up whole parent
+...StyleSheet.absoluteFillObject

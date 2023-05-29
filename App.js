@@ -8,6 +8,8 @@ import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
 import SquareScreen from "./src/screens/SquareScreen";
 import TextScreen from "./src/screens/TextScreen"
+import BoxScreen from "./src/screens/BoxScreen";
+
 /**
  * my name is elizabeth
  * stack navigator allows us to change/naviagte the content of screen
@@ -28,6 +30,7 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     Square: SquareScreen,
     Text: TextScreen,
+    Box: BoxScreen,
   },
   {
     initialRouteName: "Home",

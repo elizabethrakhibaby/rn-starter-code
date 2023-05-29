@@ -5,11 +5,13 @@ import { Text, StyleSheet, View } from "react-native";
 const sampleScreen = function() {
 
     return (
-        <View>
-        <Text>hi</Text>
+        <View >
+        <Text >hi</Text>
         </View>
     );
 };
+
+
 
 const styles = StyleSheet.create({
   textStyle: {
